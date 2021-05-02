@@ -1,0 +1,195 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\addbibresource{bibliography.bib}
+\usepackage{needspace}
+
+\begin{document}
+\header{ivan}{zucchi}
+       {software development specialist}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+    Ibitinga,
+    São Paulo - Brasil.
+    ~
+    +55 16 98238-1335
+    \href{mailto:zucchivan@gmail.com}{zucchivan@gmail.com}
+    \href{http://linkedin.com/zuccchivan}{linkedin://zucchivan}
+  \section{languages}
+    native portuguese
+    fluent english
+    intermediary spanish
+  \section{programming}
+    {\color{red} $\varheartsuit$}Java
+    Spring ecosystem
+    Android
+    Linux/Unix
+    Shell script
+    SQL and PL/SQL
+    React
+    Node
+\end{aside}
+
+\section{summary}
+    Working in software development since 2014, experienced challenges in several programming languages, design patterns, frameworks and environments. 
+
+\section{experience}
+\begin{entrylist}
+  \entry
+    {since 2020}
+    {ZarpSystem, São Carlos}
+    {Software Developer}
+    {\emph{Development of software products and consulting services}}
+  \entry
+    {2016-2020}
+    {Amdocs, São Carlos}
+    {Software Developer}
+    {\emph{Development of software projects for telecom enterprises such as Telefonica, Claro and Altice.}}
+  \entry
+    {2015-2016}
+    {Monitora, São Carlos}
+    {Software Developer}
+    {\emph{Development and analysis of web softwares for VistaJet International.}}
+  \entry
+    {09-11 2015}
+    {Simples, Araraquara}
+    {Mobile Development Internship.}
+    {\emph{Development of Android apps.}}
+  \entry
+    {2014-2015}
+    {Cast IT Group, Araraquara}
+    {Web Development Internship.}
+    {\emph{Development of web systems for the public sector.}}
+
+
+\end{entrylist}
+    
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {2013-2017}
+    {Computer Engineering Degree}
+    {UNIARA, University of Araraquara}
+    { }
+  \entry
+    {2011-2012}
+    {IT Technician {\normalfont}}
+    {ETEC, Technical School of Ibitinga}
+    {\emph{}}
+\end{entrylist}
+
+\section{main courses}
+
+\begin{entrylist}
+  \entry
+    {Opensanca}
+    {Machine learning with Python}
+    {}
+    {\emph{}}
+%  \entry
+%    {Amdocs}
+%    {IOT workshop}
+%    {}
+%    {\emph{}}
+  \entry
+    {Amdocs}
+    {Escalated agile with Rally}
+    {}
+    {\emph{}}
+  \entry
+    {Amdocs}
+    {Agile fundamentals}
+    {}
+    {\emph{}}
+  \entry
+    {Cast IT}
+    {Native Android Development}
+    {}
+    {\emph{}}
+  \entry
+    {Cast IT}
+    {Java and .NET}
+    {}
+    {\emph{}}
+   \entry
+    {Cast IT}
+    {SQL and PL/SQL with SQL Server and Oracle}
+    {}
+    {\emph{}}
+   \entry
+    {Uniara}
+    {Ruby on Rails introduction course}
+    {}
+    {\emph{}}
+    
+\end{entrylist}
+
+\section{main projects}
+
+\begin{entrylist}
+ \entry
+    {ZarpSystem}
+    {OdontoPrev - Portal Parceiros}
+    {\href{}{https://www.parceirosodontoprev.com.br}}
+    {Parceiros is a website used by brokers of OdontoPrev (private dental care company) to sell its plans and manage commissioning. It uses basically Java 8/Spring Boot/Thymeleaf and REST communication, along with batch processes (Spring Batch). } 
+
+ \entry
+    {ZarpSystem}
+    {Assesso - Datacare}
+    {\href{}{}}
+    {Datacare is a software capable of performing several data treatment analysis, such as removal of duplicates and address improvement, aiming to create clean and optimal data records. It accepts several types of inputs, such as relational databases, files and data streams. It has a core in C wrapped in Java 8 for configuration, communication and security.  } 
+    
+\entry
+    {Amdocs}
+    {Altice USA - eCom / Self-Care}
+    {\href{eCom}{alticemobile.com}}
+    {eCom [alticemobile.com] and Self-Care [myaltice.alticemobile.com] are mobile friendly websites for sales and maintenance of phone lines, devices, packages, etc., for Altice USA. They were developed mostly in React JS and communicate through GraphQL with Apollo, a middle-ware server (written in Node.js) that takes care of API calls.}
+
+ \entry
+    {Amdocs}
+    {Telefonica Brazil - Meu Vivo (Omni)}
+    {\href{}{}}
+    {Self-service app for customers of Telefonica Brazil (Vivo) customers using mostly JavaScript (React/Knockout/Backbone/JQuery) for front-end and Java 8/Spring for back-end.} 
+ \entry
+    {Amdocs}
+    {Telefonica Brazil (Vivo) - Beatrix}
+    {\href{}{}}
+    {Beatrix is a structural change and implementation of Amdocs software solutions into Telefonica Brazil (Vivo). With its name inspired by the main character of the movie Kill Bill, one of Beatrix main goals was to eliminate the need for several different billing processes (Kill Bill!). Responsible for development of customization exit points for Amdocs core solution (with mostly Java EE7 and PL/SQL), bug fixes and solution gaps fixes in Accounts Receivable, Collections and Journaling applications.}
+ \entry
+    {Monitora}
+    {VistaJet - Pricer }
+    {\href{}{}}
+    {High performance microservice responsible for VistaJet flights pricing. Developed with JavaEE, uses REST for external comunication and has a advanced usage of Redis as database. Also it has solutions for high availability and soft real-time performance.}
+ \entry
+    {Monitora}
+    {VistaJet - Scheduler Optmiser }
+    {\href{}{}}
+    {Optimiser was designed as a Java web service which, given a flight requests set, is able to achieve the best aircraft and schedule designation for each flight leg and request. It's core is implemented in C++, and wrapped in Java Native Interface. It is able to handle many variables such as departure place, arrival place, airplane type, crew, danger zones, etc... Its main goal is to save as many resources as possible, optimising flight process.}
+
+
+\end{entrylist}
+\\
+\begin{entrylist}
+  \entry
+    {Monitora}
+    {VistaJet - GlobalView }
+    {\href{}{}}
+    {Global View is the main management software of VistaJet company. Its main functionality is to control flights schedule with an interactive timeline, having control of plane, plane type, passengers, crew, catering, etc. GV has improved VistaJet flight procedures, as things that were before done and managed manually and on paper are now controlled by the software (JavaEE/Hibernate/Spring/Flex).}   
+
+  \entry
+    {Simples}
+    {Let's - Vistoria }
+    {\href{}{}}
+    {Android app for car survey with a web module for overall management of performed (and to perform) inspections. (Native Android)}
+    
+  \entry
+    {Cast IT}
+    {SEFIN - Declaração Eletrônica de Serviços de Instituições Financeiras (DESIF) }
+    {\href{}{https://desif.prefeitura.sp.gov.br/}}
+    {Developed to SEFIN (Finance Department of São Paulo), DESIF's main goal is to validate statements of statewide financial institutions, performing in a few minutes documents validations that used to take weeks when done by human hands. (Java EE7) }
+\end{entrylist}
+
+\end{document}
