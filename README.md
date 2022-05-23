@@ -1,2 +1,2 @@
 # my-latex-cv
-A way to version my Latex CV
+My CV, in LaTeX. ¯\_(ツ)_/¯
