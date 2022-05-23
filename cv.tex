@@ -2,28 +2,33 @@
 \documentclass[]{friggeri-cv}
 \addbibresource{bibliography.bib}
 \usepackage{needspace}
+\usepackage{fontawesome5}
+\usepackage{comment}
 
 \begin{document}
 \header{ivan}{zucchi}
-       {software development specialist}
+       {software developer}
 
 
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{about}
-    Ibitinga,
-    São Paulo - Brasil.
+    Lisboa,
+    Portugal.
     ~
-    +55 16 98238-1335
+    +351 932905822
     \href{mailto:zucchivan@gmail.com}{zucchivan@gmail.com}
-    \href{http://linkedin.com/zuccchivan}{linkedin://zucchivan}
+    \faGithub \hspace{0pt} \href{https://github.com/zucchivan/}{GitHub}
+    \faLinkedin \hspace{0pt} \href{http://linkedin.com/zucchivan}{LinkedIn}
+    \faHackerrank \hspace{0pt} \href{https://www.hackerrank.com/zucchivan}{HackerRank}
   \section{languages}
     native portuguese
     fluent english
     intermediary spanish
   \section{programming}
     {\color{red} $\varheartsuit$}Java
-    Spring ecosystem
+    {\color{red} $\varheartsuit$}Spring
+    Go
     Android
     Linux/Unix
     Shell script
@@ -38,8 +43,18 @@
 \section{experience}
 \begin{entrylist}
   \entry
-    {since 2020}
-    {ZarpSystem, São Carlos}
+    {since 2022}
+    {Alter Solutions, Lisboa}
+    {Sr Software Developer}
+    {\emph{Development of software products for BNP Paribas bank}}
+  \entry
+    {2021-2022}
+    {Daitan (Encora Group), Campinas}
+    {Software Development Specialist}
+    {\emph{Development of a software product for Atech/Embraer}}
+  \entry
+    {2020-2021}
+    {ZarpSystem, São Carlos (Part time)}
     {Software Developer}
     {\emph{Development of software products and consulting services}}
   \entry
@@ -85,16 +100,6 @@
 
 \begin{entrylist}
   \entry
-    {Opensanca}
-    {Machine learning with Python}
-    {}
-    {\emph{}}
-%  \entry
-%    {Amdocs}
-%    {IOT workshop}
-%    {}
-%    {\emph{}}
-  \entry
     {Amdocs}
     {Escalated agile with Rally}
     {}
@@ -119,11 +124,6 @@
     {SQL and PL/SQL with SQL Server and Oracle}
     {}
     {\emph{}}
-   \entry
-    {Uniara}
-    {Ruby on Rails introduction course}
-    {}
-    {\emph{}}
     
 \end{entrylist}
 
@@ -131,12 +131,20 @@
 
 \begin{entrylist}
  \entry
+    {Daitan}
+    {Atech/Embraer - BDS Unificada}
+    {\href{}{}}
+    {BDS Unificada (or Unified BDS) is a project from Atech (a company from Embraer) and aims to unify airspace satellite navigation data that is exposed to Brazilian APPs (Aproximation Control Centers) and ACCs (Area Control Centers). The system takes data on Spring Batch routines, converts them to the AIXM standard (Aeronautical Information Exchange Model), exposes the generated files via RESTFUL services and keep information (on Elastic Search) over which centers are using which version from the generated files.} 
+
+\begin{comment}
+ \entry
     {ZarpSystem}
     {OdontoPrev - Portal Parceiros}
     {\href{}{https://www.parceirosodontoprev.com.br}}
     {Parceiros is a website used by brokers of OdontoPrev (private dental care company) to sell its plans and manage commissioning. It uses basically Java 8/Spring Boot/Thymeleaf and REST communication, along with batch processes (Spring Batch). } 
+\end{comment}
 
- \entry
+\entry
     {ZarpSystem}
     {Assesso - Datacare}
     {\href{}{}}
@@ -152,7 +160,7 @@
     {Amdocs}
     {Telefonica Brazil - Meu Vivo (Omni)}
     {\href{}{}}
-    {Self-service app for customers of Telefonica Brazil (Vivo) customers using mostly JavaScript (React/Knockout/Backbone/JQuery) for front-end and Java 8/Spring for back-end.} 
+    {Self-service app for customers of Telefonica Brazil (Vivo) customers using mostly JavaScript (Knockout/Backbone/JQuery) for front-end and Java 8/Spring for back-end.} 
  \entry
     {Amdocs}
     {Telefonica Brazil (Vivo) - Beatrix}
@@ -162,23 +170,23 @@
     {Monitora}
     {VistaJet - Pricer }
     {\href{}{}}
-    {High performance microservice responsible for VistaJet flights pricing. Developed with JavaEE, uses REST for external comunication and has a advanced usage of Redis as database. Also it has solutions for high availability and soft real-time performance.}
- \entry
-    {Monitora}
-    {VistaJet - Scheduler Optmiser }
-    {\href{}{}}
-    {Optimiser was designed as a Java web service which, given a flight requests set, is able to achieve the best aircraft and schedule designation for each flight leg and request. It's core is implemented in C++, and wrapped in Java Native Interface. It is able to handle many variables such as departure place, arrival place, airplane type, crew, danger zones, etc... Its main goal is to save as many resources as possible, optimising flight process.}
-
+    {High performance microservice responsible for VistaJet flights pricing. Developed with JavaEE, uses REST for external comunication and has an advanced usage of Redis as database. Also it has solutions for high availability and soft real-time performance.}
 
 \end{entrylist}
 \\
 \begin{entrylist}
+ \entry
+    {Monitora}
+    {VistaJet - Scheduler Optmiser }
+    {\href{}{}}
+    {Optimiser is a Java web service which, given a flight requests set, is able to achieve the best aircraft and schedule designation for each flight leg and request. It's core is implemented in C++, and wrapped in Java Native Interface.}
   \entry
     {Monitora}
     {VistaJet - GlobalView }
     {\href{}{}}
-    {Global View is the main management software of VistaJet company. Its main functionality is to control flights schedule with an interactive timeline, having control of plane, plane type, passengers, crew, catering, etc. GV has improved VistaJet flight procedures, as things that were before done and managed manually and on paper are now controlled by the software (JavaEE/Hibernate/Spring/Flex).}   
+    {Global View is the main management software of VistaJet company. Its main functionality is to control flights schedules with an interactive timeline, having control of plane, plane type, passengers, crew, catering, etc. GV has improved VistaJet flight procedures, as things that were before done and managed manually and on paper are now controlled by the software (JavaEE/Hibernate/Spring/Flex).}   
 
+\begin{comment}
   \entry
     {Simples}
     {Let's - Vistoria }
@@ -190,6 +198,8 @@
     {SEFIN - Declaração Eletrônica de Serviços de Instituições Financeiras (DESIF) }
     {\href{}{https://desif.prefeitura.sp.gov.br/}}
     {Developed to SEFIN (Finance Department of São Paulo), DESIF's main goal is to validate statements of statewide financial institutions, performing in a few minutes documents validations that used to take weeks when done by human hands. (Java EE7) }
+\end{comment}
+
 \end{entrylist}
 
 \end{document}
