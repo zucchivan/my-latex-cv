@@ -1,2 +1,2 @@
 # my-latex-cv
-My CV, in LaTeX. ¯\_(ツ)_/¯
+My CV, in LaTeX. ¯\\_(ツ)_/¯
